@@ -25,7 +25,7 @@ def predict_insurance(age, sex, bmi, children, smoker, region):
     return prediction[0]
 
 inputs=[
-    gr.Number(label='Age', value=int),
+    gr.Number(label='Age'),
     gr.Radio(['male', 'female'], label='Sex'),
     gr.Number(label='BMI'),
     gr.Slider(minimum=0, maximum=5, step=1, label='Number of Children'),
