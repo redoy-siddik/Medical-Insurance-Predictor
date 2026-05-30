@@ -1,0 +1,17 @@
+venv/
+
+\_\_pycache\_\_/
+
+\*.pyc
+
+.ipynb\_checkpoints/
+
+\*.pkl
+
+\*.h5
+
+\*.dll
+
+\*.so
+
+.env
